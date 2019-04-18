@@ -13,7 +13,7 @@ export class CarTableComponent {
     constructor(private repo: Repository,
                 private router: Router) { }
 
-    get cars(): Car[] {
-        return this.repo.cars;
+    get car(): Car {
+        return this.repo.car;
     }
 }

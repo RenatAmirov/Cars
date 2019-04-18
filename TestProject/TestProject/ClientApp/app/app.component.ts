@@ -11,7 +11,7 @@ export class AppComponent {
 
     constructor(private repo: Repository) { }
 
-    get cars(): Car[] {
-        return this.repo.cars;
+    get car(): Car {
+        return this.repo.car;
     }
 }
